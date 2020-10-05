@@ -27,5 +27,8 @@ body {
     background-color: #FFFFFF;
 }
 #navBarLogo {
-    width: 35%;
+    height: 49px;
+}
+#navBarAccount {
+    height: 20px;
 }
