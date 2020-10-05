@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D3D3D3;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.navigationBarLinks ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navigationBarLinks li {
+    list-style: none;
+}
+.navigationBarLinks li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 1rem;
+    display: block;
+}
+.navigationBarLinks li:hover {
+    background-color: #FFFFFF;
+}
+#navBarLogo {
+    height: 39px;
+}
+#navBarAccount {
+    height: 20px;
+}
+.aboutUsPage {
+    margin: auto;
+    width: 66%;
+    padding: 10px;
+    text-align: center;
+}
+.aboutUsPage ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.aboutUsPage li {
+    list-style: none;
+}
+.aboutUsPage li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 1rem;
+    display: block;
+}
+.aboutUsPage li:hover {
+    background-color: #D3D3D3;
+}
+.aboutUsPage h1 {
+    border-bottom: 2px solid #D3D3D3;
+}
+#aboutUsServices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+    width: 66%;
+}
